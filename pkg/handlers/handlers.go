@@ -1,7 +1,11 @@
 package handlers
 
-import "net/http"
+import (
+	"fmt"
+	"net/http"
+)
 
+// Home is where I want to be
 func Home(w http.ResponseWriter, r *http.Request) {
-	Fprintln(w, "Hello world")
+	fmt.Fprintln(w, "Would you like to play a game?")
 }

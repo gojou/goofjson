@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"github.com/gojou/bones/pkg/handlers"
+	"github.com/gojou/goofjson/pkg/handlers"
 	"github.com/gorilla/mux"
 )
 

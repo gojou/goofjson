@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/gojou/goofjson/pkg/routing"
+	"github.com/gojou/goofjson/pkg/routes"
 	"github.com/gorilla/mux"
 )
 
@@ -24,7 +24,7 @@ func startApp() error {
 		log.Fatal(err)
 	}
 	r := mux.NewRouter()
-	routing.Routes(r)
+	routes.Routing(r)
 
 	// Critical to work on AppEngine
 	port := os.Getenv("PORT")
