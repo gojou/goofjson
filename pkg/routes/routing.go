@@ -8,4 +8,5 @@ import (
 // Routing blah blah blah
 func Routing(r *mux.Router) {
 	r.HandleFunc("/", handlers.Home)
+	r.HandleFunc("/counter", handlers.Counter())
 }
