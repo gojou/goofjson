@@ -1,4 +1,4 @@
 conf:
-  dburi: http://www.google.com
-  user: mark
-  password: babelfish
+  dburi: cluster0.dfch4.mongodb.net
+  user: mongouser
+  password: hpkns372
