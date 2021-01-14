@@ -1,0 +1,4 @@
+conf:
+  dburi: http://www.google.com
+  user: mark
+  password: babelfish
